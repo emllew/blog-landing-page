@@ -28,7 +28,7 @@ Background gradient - Intro/CTA mobile nav:
 
 - Very light red: hsl(13, 100%, 72%)
 - Light red: hsl(353, 100%, 62%)
-
+ ba
 Background gradient - body:
 
 - Very dark gray blue: hsl(237, 17%, 21%)
