@@ -28,6 +28,7 @@ nav {
   background: transparent;
   z-index: 100;
 }
+
 #headersvg {
   position: absolute;
   top: -155vh;
@@ -50,15 +51,29 @@ header {
   z-index: 50;
 }
 h1 {
-  padding: 20px;
+  font-size: 2.8rem;
+  margin-top: 50px;
+  color: var(--text);
+  padding: 10px;
 }
 h4 {
-  padding: 20px;
+  color: var(--text);
+  margin: 10px;
   font-size: 18px;
 }
 button {
+  margin: 5px;
+  border: none;
   border-radius: 100px;
-  padding: 10px;
+  padding: 15px;
+}
+.startBtn {
+  color: var(--CTA-text);
+  font-weight: bold;
+}
+.startBtn:hover {
+  color: white;
+  background-color: var(--CTA-hover-background);
 }
 main {
   margin-top: 0;

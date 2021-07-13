@@ -20,7 +20,7 @@
 
   <header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg  bg-transparent navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
@@ -28,7 +28,8 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <ul class="navbar-nav d-flex justify-content-end me-auto my-2 my-lg-0 navbar-nav-scroll"
+            style="--bs-scroll-height: 100px;">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -66,10 +67,12 @@
                 <li><a class="dropdown-item" href="#">LinkedIn</a></li>
               </ul>
             </li>
-            <li class="nav-item float-end">
+          </ul>
+          <ul class="navbar-nav d-flex justify-content-end ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
               <a class="nav-link" href="#">Login</a>
             </li>
-            <li class="nav-item float-end">
+            <li class="nav-item">
               <a class="nav-link" href="#">Sign Up</a>
             </li>
           </ul>
@@ -81,8 +84,8 @@
       <h1>A modern publishing platform</h1>
       <h4>Grow your audience and build your online brand</h4>
       <br />
-      <button>Start for Free</button>
-      <button>Learn More</button>
+      <button class="startBtn">Start for Free</button>
+      <button class="learnBtn">Learn More</button>
     </div>
     <img src="images/bg-pattern-intro.svg" id="headersvg">
   </header>
