@@ -19,7 +19,7 @@
 
   <header>
 
-    <nav class="navbar p-3 navbar-expand-lg  bg-transparent navbar-white">
+    <nav class="navbar p-3 m-3 navbar-expand-lg  bg-transparent navbar-white">
       <div class="container-fluid">
 
         <a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
@@ -102,15 +102,15 @@
     <img src="images/bg-pattern-intro.svg" id="headersvg">
   </header>
   <main>
-    <div class="container">
+    <div class="container-flex white pb-5 pt-5">
 
-      <div class="row m-3 mb-0 p-5">
+      <div class="row justify-content-md-center m-3 mb-0 p-5">
         <h2>Designed for the future</h2>
       </div>
 
       <div class="row">
         <div class="col">
-          <div class="row m-4 p-5">
+          <div class="row justify-content-center m-4 p-5">
             <h3>Introducing an extensible editor</h3>
             <p>Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content.
               The editor supports management of multiple blogs and allows easy manipulation of embeds such as images,
@@ -135,24 +135,34 @@
 
     </div>
 
-    <div class="container-fluid infrastructure">
+    <div class="container-fluid d-flex infrastructure">
       <div class="row">
-        <div class="col">
-          <img src="images/illustration-phones.svg">
+        <div class="col align-items-center justify-content-center">
+          <svg class="bgCircles" width="1014" height="1018" xmlns="http://www.w3.org/2000/svg">
+            <g transform="matrix(1 0 0 -1 0 1018)" fill="none" fill-rule="evenodd">
+              <rect fill="#3E4062" x="213" y="214" width="588" height="590" rx="294" />
+              <rect stroke="#878D92" opacity=".5" x=".5" y=".5" width="1013" height="1017" rx="506.5" />
+              <rect stroke="#878D92" x="170.5" y="171.5" width="673" height="675" rx="336.5" />
+            </g>
+          </svg>
+          <img src="images/illustration-phones.svg" class="phonesImg img-fluid">
         </div>
-        <div class="col">
-          <div class="row m-4 p-5 align-items-center">
-            <h2>State of the Art Infrastructure</h2>
-            With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
-            This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+        <div class="col align-items-center infraText">
+          <div class="row p-5">
+            <h3>State of the Art Infrastructure</h3>
+            <p>With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast
+              connectivity.
+              This ensures your site will load instantly, no matter where your readers are, keeping your site
+              competitive.</p>
           </div>
         </div>
       </div>
 
     </div>
+
     </div>
 
-    <div class="container">
+    <div class="container-flex white pb-5 pt-5">
 
       <div class="row">
         <div class="col">
@@ -187,7 +197,7 @@
 
   </main>
   <footer>
-    <div class="container">
+    <div class="container-flex m-4 p-4">
       <div class="row">
         <div class="col">
           <img src="images/logo.svg">
@@ -195,11 +205,11 @@
         <div class="col">
           <h5>Product</h5>
           <ul>
-            <li>Overview</li>
-            <li>Pricing</li>
-            <li>Marketplace</li>
-            <li>Features</li>
-            <li>Integrations</li>
+            <li><a>Overview</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Marketplace</a></li>
+            <li><a>Features</a></li>
+            <li><a>Integrations</a></li>
           </ul>
 
 
@@ -209,20 +219,20 @@
           <h5>Company</h5>
 
           <ul>
-            <li>About</li>
-            <li>Team</li>
-            <li>Blog</li>
-            <li>Careers</li>
-            <li></li>
+            <li><a>About</a></li>
+            <li><a>Team</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Careers</a></li>
+
           </ul>
 
         </div>
         <div class="col">
           <h5>Connect</h5>
           <ul>
-            <li>Contact</li>
-            <li>Newsletter</li>
-            <li>LinkedIn</li>
+            <li><a>Contact</a></li>
+            <li><a>Newsletter</a></li>
+            <li><a>LinkedIn</a></li>
           </ul>
 
 
