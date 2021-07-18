@@ -29,14 +29,38 @@ nav {
   background: transparent;
   z-index: 100;
 }
+
 .nav-link {
   color: white;
   transition: none;
+
 }
-nav-link:hover {
+.nav-link:hover {
   color: white;
   transition: none;
+  text-decoration: underline;
 }
+.nav-link:active {
+  color: white;
+}
+
+.nav-link:focus, .nav-link:hover{
+  color: white;
+}
+
+.dropdown-menu {
+border:none;
+font-family:'ubuntu', sans-serif;
+line-height:2;
+font-size: 0.9rem;
+padding: 10px;
+}
+.dropdown-item:hover {
+  font-weight: 700;
+  background-color:white;
+}
+
+
 #headersvg {
   position: absolute;
   top: -900px;
@@ -64,10 +88,20 @@ h1 {
   color: var(--text);
   padding: 10px;
 }
+h3{
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2;
+}
 h4 {
+  font-weight: 700;
+  line-height: 2;
   color: var(--text);
   margin: 10px;
   font-size: 18px;
+}
+p{
+  line-height: 2;
 }
 button {
   margin: 5px;
@@ -75,11 +109,23 @@ button {
   border-radius: 100px;
   padding: 15px;
 }
+
+.signupBtn{
+  border: none;
+  border-radius: 100px;
+}
+
+.signupBtn:hover {
+  transition: 300ms ease-in-out;
+  color: white;
+  background-color: var(--CTA-hover-background);
+}
 .startBtn, .signupBtn {
   color: var(--CTA-text);
   font-weight: bold;
+  
 }
-.startBtn:hover, .signupBtn:hover {
+.startBtn:hover  {
   transition: 300ms ease-in-out;
   color: white;
   background-color: var(--CTA-hover-background);
@@ -112,7 +158,8 @@ main {
   left: -200px;
 }
 .phonesImg {
-max-height: 550px;
+
+max-height: 600px;
   z-index:500;
 }
 .infrastructure {
@@ -132,8 +179,12 @@ max-height: 550px;
 h2 {
   text-align: center;
 }
-.desktopImg{
- width: 900px;
+.desktopImg {
+ width: 700px;
+ position: relative;
+ right: -10vw;
+ max-height: 70vh;
+ width: auto;
 }
 
 footer{
@@ -145,7 +196,12 @@ footer{
   background-color:var(--footer-background);
 }
 .attribution {
-  padding-top: 40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color:hsl(204, 5%, 39%);
+}
+.attribution a {
+  color:hsl(210, 7%, 47%);
 }
 ul{
   list-style: none;
