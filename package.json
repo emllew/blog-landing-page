@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/emllew/blog-landing-page/issues"
   },
-  "homepage": "https://github.com/emllew/blog-landing-page#readme",
-  "dependencies": {
-    "bootstrap": "^5.0.2"
-  }
+  "homepage": "https://github.com/emllew/blog-landing-page#readme"
 }

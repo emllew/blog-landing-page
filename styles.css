@@ -19,7 +19,6 @@
 }
 
 body {
-
   display: flex;
   flex-direction: column;
   font-family: var(--overpass);
@@ -27,60 +26,59 @@ body {
 }
 nav {
   background: transparent;
-  z-index: 100;
+display: block;
+}
+
+.navbar-toggler{
+color:white;
 }
 
 .nav-link {
   color: white;
-  transition: none;
-
+line-height:2;
 }
 .nav-link:hover {
   color: white;
-  transition: none;
   text-decoration: underline;
 }
 .nav-link:active {
   color: white;
 }
-
 .nav-link:focus, .nav-link:hover{
   color: white;
 }
 
-.dropdown-menu {
+.dropdown {
 border:none;
 font-family:'ubuntu', sans-serif;
-line-height:2;
 font-size: 0.9rem;
-padding: 10px;
 }
 .dropdown-item:hover {
   font-weight: 700;
   background-color:white;
 }
 
-
 #headersvg {
   position: absolute;
-  top: -900px;
-  right: -900px;
-  margin: 0 auto;
+  top: -850px;
+  right: -850px;
+
   z-index: -3;
-  width: 170vw;
+  width: 150vw;
 }
 header {
   border-bottom-left-radius: 150px;
   background-image: var(--bkg-grad-top);
   width: 100%;
-  height: 67vh;
+ min-height: 68vh;
   text-align: center;
 z-index:1;
   margin: 0 auto;
 }
 
-.headerText {
+.headText {
   z-index: 50;
+  padding-bottom: 10px;
 }
 h1 {
   font-size: 2.8rem;
@@ -213,7 +211,46 @@ footer li {
 }
 h5 {
   font-weight: 700;
+
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 375px) {
+
+  .headText {
+    z-index: 50;
+    padding-bottom: 40px;
+  }
+  .bgCircles {
+    position:absolute;
+    z-index:-1;
+    top: -600px;
+    left: -200px;
+  }
+  .phonesImg {
+  
+  max-height: 600px;
+    z-index:500;
+  }
+  .infrastructure {
+    overflow: visible;
+    position: relative;
+    background-image:var(--bkg-grad-body);
+    color: white;
+    z-index: -2;
+    width: 100%;
+    max-height:1000px;
+    border-bottom-left-radius: 150px;
+    border-top-right-radius: 150px;
+  }
+  .infraText {
+    z-index:2;
+  }
+
+h5 {
+  padding-top: 50px;
+
+}
+footer .col-sm {
+ margin:10px;
+}
 }
