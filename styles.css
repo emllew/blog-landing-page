@@ -27,6 +27,7 @@ body {
 nav {
   background: transparent;
 display: block;
+
 }
 
 .navbar-toggler{
@@ -36,6 +37,8 @@ color:white;
 .nav-link {
   color: white;
 line-height:2;
+font-family:'overpass', sans-serif;
+font-size:1rem;
 }
 .nav-link:hover {
   color: white;
