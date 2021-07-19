@@ -216,6 +216,9 @@ h5 {
   font-weight: 700;
 
 }
+footer .col-md {
+  margin:10px;
+ }
 
 @media (min-width: 375px) {
 
@@ -253,7 +256,7 @@ h5 {
   padding-top: 50px;
 
 }
-footer .col-sm {
- margin:10px;
+footer .col-md {
+ margin-left:20px;
 }
 }
