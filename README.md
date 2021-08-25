@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/emllew/blog-landing-page)
-- Live Site URL: [Add live site URL here](cranky-hawking-2d2f80.netlify.app)
+- Solution URL: [Github](https://github.com/emllew/blog-landing-page)
+- Live Site URL: [Netlify](cranky-hawking-2d2f80.netlify.app)
 
 
 ### Built with
